@@ -45,6 +45,7 @@ h2{
     display: flex;
     background-image: url(images/about-bg.png);
     background-repeat: no-repeat;
+    margin-bottom: 80px;
 }
 #about-photo img{
     width: 60%;
@@ -53,4 +54,52 @@ h2{
 #about-content{
     padding-top: 100px;
 }
+#recipie-part{
+    text-align: center;
+    margin-bottom: 80px;
+}
+.recipie-sub-heading{
+    padding: 0px 250px 30px;
+}
+#recipie-section{
+    display: flex;
+    justify-content: center;
+}
+.recipie-item{
+    width: 22%;
+    margin: 0 2%;
+    padding: 15px;
+    border-radius: 30px;
+    text-align: left;
+    box-shadow: 10px 10px 30px gray;
+}
+.recipie-item img{
+    width: 100%;
+}
+#followers-part{
+    width: 80%;
+    display: flex;
+    text-align: center;
+    padding: 30px 0px;
+    margin: 0 auto;
+    box-shadow: 10px 10px 30px gray;
+    border-radius: 25px;
+    margin-bottom: 80px;
+}
+.follower-item{
+    width: 25%;
+    margin: 0 4%;
+}
 
+#footer{
+    text-align: center;
+    background-color: #18191F;
+    padding: 50px 0px;
+}
+#footer h2{
+    font-size: 35px;
+}
+#footer p{
+    color: white;
+    font-weight: 400;
+}
