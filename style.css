@@ -1,0 +1,56 @@
+body{
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+h1{
+    font-size: 60px;
+    font-weight: 700;
+    color: #575757;
+}
+h2{
+    font-size: 40px;
+    font-weight: 700;
+    color: #707070;
+}
+#banner-part{
+    display: flex;
+    margin-bottom: 80px;
+}
+.section-item{
+    width: 40%;
+    padding: 0 5%;
+}
+.orange-color{
+    color: orange;
+}
+.section-item p{
+    font-size: 20px;
+    font-weight: 600;
+    color: #828282;
+    padding-bottom: 40px;
+}
+.link-button{
+    font-size: 18px;
+    font-weight: 600;
+    text-decoration: none;
+    padding: 20px 30px;
+    background-image: linear-gradient(to right, orange, tomato);
+    color: white;
+    border-radius: 30px;
+}
+.section-item img{
+    width: 100%;
+}
+#about-part{
+    display: flex;
+    background-image: url(images/about-bg.png);
+    background-repeat: no-repeat;
+}
+#about-photo img{
+    width: 60%;
+    padding: 50px 0px 0px 100px;
+}
+#about-content{
+    padding-top: 100px;
+}
+
