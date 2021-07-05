@@ -90,7 +90,28 @@ h2{
     width: 25%;
     margin: 0 4%;
 }
+#subcribers-part{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 80px;
+    background-image: url(images/subscribe.png);
+    background-repeat: no-repeat;
+    transform:scale(0.8);
+    background-position: center center;
+    padding: 50px 0px;
+}
+.contact-form{
+    width: 30%;
+    background-color: rgba(17, 17, 17, 0.651);
+    padding: 0px 20px 10px;
+    box-shadow: 10px 10px 30px gray;
+}
 
+.contact-field{
+    padding: 10px 5px;
+    margin: 20px 10px;
+    width: 90%;
+}
 #footer{
     text-align: center;
     background-color: #18191F;
