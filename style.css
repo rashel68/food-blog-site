@@ -12,6 +12,11 @@ h2{
     font-weight: 700;
     color: #707070;
 }
+h3{
+    font-size: 28px;
+    font-weight: 700;
+    color: #18191F;
+}
 #banner-part{
     display: flex;
     margin-bottom: 80px;
@@ -33,7 +38,7 @@ h2{
     font-size: 18px;
     font-weight: 600;
     text-decoration: none;
-    padding: 20px 30px;
+    padding: 15px 30px;
     background-image: linear-gradient(to right, orange, tomato);
     color: white;
     border-radius: 30px;
@@ -75,11 +80,11 @@ h2{
 }
 .recipie-item img{
     width: 100%;
+    border-radius: 20px;
 }
 #followers-part{
     width: 80%;
     display: flex;
-    text-align: center;
     padding: 30px 0px;
     margin: 0 auto;
     box-shadow: 10px 10px 30px gray;
@@ -88,29 +93,67 @@ h2{
 }
 .follower-item{
     width: 25%;
+    padding: 0 4%;
     margin: 0 4%;
+    color: #18191F;
+}
+.f-color{
+    color: #18191F;
 }
 #subcribers-part{
     display: flex;
     justify-content: center;
-    margin-bottom: 80px;
-    background-image: url(images/subscribe.png);
+    background-image: url(images/map.png);
     background-repeat: no-repeat;
-    transform:scale(0.8);
-    background-position: center center;
+    
+    background-size: cover;
     padding: 50px 0px;
 }
 .contact-form{
-    width: 30%;
-    background-color: rgba(17, 17, 17, 0.651);
+    width: 32%;
     padding: 0px 20px 10px;
-    box-shadow: 10px 10px 30px gray;
+}
+.contact-form fieldset{
+    background-color: rgba(32, 29, 29, 0.767);
+    border-top: 3px solid dodgerblue;
+    border-bottom: 3px solid dodgerblue;
+   border-left: 3px solid #dfdfdf;
+   border-right: 3px solid #dfdfdf;
+    border-radius: 20px;
+    padding: 50px 0px 30px;
+}
+.contact-form legend{
+    padding: 10px 15px;
+    font-size: 25px;
+    font-weight: 600;
+    text-align: center;
+    background-color: dodgerblue;
+    color: white;
+    border-radius: 15px;
+    border: 2px solid white;
 }
 
 .contact-field{
-    padding: 10px 5px;
-    margin: 20px 10px;
-    width: 90%;
+    padding: 15px 5px;
+    margin: 20px 60px;
+    width: 70%;
+    border-radius: 15px;
+    background: #dfdfdf;
+    border: 1px solid #575757;
+}
+.contact-checkbox-field{
+    margin-left: 60px;
+}
+.submit-button{
+    background-image: linear-gradient(to right, rgb(151, 15, 230), dodgerblue);
+    color: white;
+    padding: 10px 25px;
+    font-size: 18px;
+    font-weight: 500;
+    border: none;
+    border-radius: 30px;
+    margin: 35px 0px 20px 150px;
+    cursor: pointer;
 }
 #footer{
     text-align: center;
